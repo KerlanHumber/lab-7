@@ -10,3 +10,10 @@ mouseButton.addEventListener('mouseout', () => {
     mouseMessage.textContent = 'Mouse left the button';
 });
 
+// Keyboard Events
+const keyInput = document.getElementById('keyInput');
+const keyMessage  = document.getElementById('keyMessage');
+
+keyInput.addEventListener('keydown', (event) => {
+    keyMessage.textContent = `Last key pressed: ${event.key}`;
+});
