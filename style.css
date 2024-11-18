@@ -1,0 +1,18 @@
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+/* Section separation */
+section {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+   
+}
